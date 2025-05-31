@@ -4,7 +4,7 @@ Nuestra tarea se baso en desarrollar una parte del proyecto, que fue el registro
 
 ## Requerimentos
 
-**Registro de Participantes**
+### Registro de Participantes
 
 1. El sistema debe permitir el registro de ciudadanos mediante un formulario con los siguientes campos:
 
@@ -27,7 +27,7 @@ solo se puede un registro al día en un establecimiento por usuario
 Redirigir al usuario a una trivia.
 Enviar un SMS de confirmación al número registrado. (en caso de haber contestado correctamente)
 
-**Trivia**
+### Trivia
 
 1. El sistema debe presentar una trivia con 3 preguntas de opción múltiple, cada una con 3 opciones de respuesta.
 
@@ -56,12 +56,12 @@ Tambien utilizamos un diagrama de componentes para organizar la manera en como c
 
 ### FlutterFlow
 
-| Ventajas                                                                                                                                              | Desventajas                                                                                                                          |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| **Separación clara entre UI y datos:** FlutterFlow se  encarga de la interfaz, mientras Supabase gestiona  el backend, base de datos, auth y storage. | **Limitado control sobre el código generado:** No siempre es  limpio ni fácil de mantener fuera del entorno FlutterFlow.             |
-| **Arquitectura modular visual:** Puedes crear componentes  reutilizables, flujos y navegación limpia sin escribir código.                             | **Difícil manejar lógica de negocio compleja:** No es ideal para  aplicaciones con flujos muy personalizados o algoritmos avanzados. |
-| **Soporte para lógica condicional y flujos dinámicos:**  Puedes configurar reglas directamente en FlutterFlow sin programar.                          | **Dificultad para pruebas unitarias/automatizadas:** No hay soporte  directo para pruebas de software dentro de FlutterFlow.         |
-| **Integración directa con Supabase (PostgreSQL):** No requiere  configuración externa, lo que simplifica la arquitectura.                             |                                                                                                                                      |
+| **Ventajas**                                                       | **Desventajas**                                                                 |
+|--------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Desarrollo rápido gracias a su interfaz visual intuitiva.          | Limitado control del código y difícil de mantener fuera del entorno visual.     |
+| Curva de aprendizaje baja, ideal para trabajar sin mucha experiencia. | Complejo manejar reglas personalizadas.        |
+| Fácil creación de formularios y navegación entre pantallas.        | Difícil implementar validaciones y lógica de negocio avanzada visualmente.      |
+| Ideal para prototipos funcionales o MVPs visuales.                 | No permite pruebas automatizadas ni control robusto de versiones.               |
 
 ### **Esquema de tiempos**
 
@@ -79,14 +79,17 @@ FlutterFlow y Supabase representan una solución moderna, ágil y visualmente ac
 
 ### Laravel
 
-| Ventajas | Desventajas |
-|----------|-------------|
-|          |             |
-|          |             |
-|          |             |
-|          |             |
+| **Ventajas**                                     | **Desventajas**                                                         |
+|--------------------------------------------------|---------------------------------------------------------------------------|
+| Robusto: arquitectura MVC clara y escalable.     | Requiere conocimiento sólido en PHP.                                     |
+| Documentación amplia y bien estructurada.        | Se apoya en tecnologías adicionales como Livewire, Vue.js o React.       |
+| Comunidad activa con soporte y recursos.         | Curva de aprendizaje más elevada para stack completo.                    |
+| Flexibilidad total en diseño y arquitectura.     | Mayor tiempo de configuración y desarrollo inicial.                      |
+| Personalización completa de lógica y vistas.     | Puede ser más complejo para MVPs o proyectos con tiempos ajustados.      |
 
 Al ser robusto y flexible, además de centrado en el Backend facilita el uso de la BD pero requiere del uso de otras tecnologías  para el Frontend como React u Node.js exigiendo de esta manera artefactos de diseño para poder concebir de mejor manera el proyecto.
+
+---
 
 ## Conclusiones
 
