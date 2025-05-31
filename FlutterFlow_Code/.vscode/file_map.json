@@ -1,0 +1,34 @@
+{
+  "fetch_quiz_questions.dart": {
+    "old_identifier_name": "fetchQuizQuestions",
+    "new_identifier_name": "fetchQuizQuestions",
+    "type": "A",
+    "is_deleted": false,
+    "current_checksum": "d399955229f84aabb998a2b3787fdf1affbaf490b1535c867ac36695d474ade2",
+    "original_checksum": "d399955229f84aabb998a2b3787fdf1affbaf490b1535c867ac36695d474ade2"
+  },
+  "get_random_question.dart": {
+    "old_identifier_name": "getRandomQuestion",
+    "new_identifier_name": "getRandomQuestion",
+    "type": "A",
+    "is_deleted": false,
+    "current_checksum": "213e2c3f234b3eba2676e29b2781f87162d96513474b191e5b55d1a9cd6d42ec",
+    "original_checksum": "213e2c3f234b3eba2676e29b2781f87162d96513474b191e5b55d1a9cd6d42ec"
+  },
+  "custom_functions.dart": {
+    "old_identifier_name": "CustomFunctions",
+    "new_identifier_name": "CustomFunctions",
+    "type": "F",
+    "is_deleted": false,
+    "current_checksum": "ebdef562c431133576df0e0df647192cbb776a63b0fa20c987cf1d531936c5da",
+    "original_checksum": "ebdef562c431133576df0e0df647192cbb776a63b0fa20c987cf1d531936c5da"
+  },
+  "pubspec.yaml": {
+    "old_identifier_name": "pubspec.yaml",
+    "new_identifier_name": "pubspec.yaml",
+    "type": "D",
+    "is_deleted": false,
+    "current_checksum": "d7737fcc60b5215136cc0fd71a623069d57ac9242e021c0b454f94beaa2b7dbc",
+    "original_checksum": "d7737fcc60b5215136cc0fd71a623069d57ac9242e021c0b454f94beaa2b7dbc"
+  }
+}
