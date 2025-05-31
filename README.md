@@ -48,7 +48,7 @@ Para el inicio del desarrollo utilizamos un diagrama de casos de uso donde visua
 
 ## Diagrama de componentes
 
-![Diagrama de componentes](/Diagramas/TiemposFlutterflow.png)
+![Diagrama de componentes](/Diagramas/DiagramaDeComponentes.png)
 
 Tambien utilizamos un diagrama de componentes para organizar la manera en como cada componente se debia conectar y como organizar los procesos que debiamos seguir para mantener un orden y estructura
 
@@ -63,7 +63,7 @@ Tambien utilizamos un diagrama de componentes para organizar la manera en como c
 | Fácil creación de formularios y navegación entre pantallas.        | Difícil implementar validaciones y lógica de negocio avanzada visualmente.      |
 | Ideal para prototipos funcionales o MVPs visuales.                 | No permite pruebas automatizadas ni control robusto de versiones.               |
 
-### **Esquema de tiempos**
+### **Esquema de tiempos en FlutterFlow**
 
 Utilizamos un esquema para representar la curva de aprendizaje dividida en tres fases: Diseño, Aprendizaje y Codificación. Cada fase incluye actividades específicas, herramientas involucradas y una estimación de tiempo, lo cual permite tener una visión clara del proceso de desarrollo.
 
@@ -71,7 +71,7 @@ El enfoque se centra en el diseño progresivo del conocimiento y del sistema, pa
 
 Refleja cómo FlutterFlow permite avanzar rápidamente una vez superada la curva inicial de aprendizaje, especialmente en entornos visuales y conectividad sencilla con backend y APIs externas.
 
-![Diagrama de componentes](/Diagramas/TiemposFlutterflow.png)
+![Esquema de tiempos](/Diagramas/TiemposFlutterflow.png)
 
 FlutterFlow y Supabase representan una solución moderna, ágil y visualmente accesible que abstrae gran parte de la complejidad arquitectónica tradicional. Su diseño modular, la separación de capas y su integración visual permiten desarrollar productos funcionales y escalables en menos tiempo. Sin embargo, no está diseñado para aplicaciones con lógica crítica, alta personalización o flujos transaccionales complejos sin extenderlo manualmente con código.
 
@@ -86,6 +86,16 @@ FlutterFlow y Supabase representan una solución moderna, ágil y visualmente ac
 | Comunidad activa con soporte y recursos.         | Curva de aprendizaje más elevada para stack completo.                    |
 | Flexibilidad total en diseño y arquitectura.     | Mayor tiempo de configuración y desarrollo inicial.                      |
 | Personalización completa de lógica y vistas.     | Puede ser más complejo para MVPs o proyectos con tiempos ajustados.      |
+
+### **Esquema de tiempos en Laravel**
+
+Utilizamos un esquema para representar el proceso de desarrollo con Laravel dividido en tres fases: Diseño, Aprendizaje y Codificación. Cada etapa contiene actividades específicas, herramientas requeridas y tiempos estimados, lo que facilita una planificación estructurada del desarrollo.
+
+El enfoque está centrado en el diseño gradual tanto del conocimiento técnico como de la arquitectura del sistema, iniciando desde un nivel de experiencia nulo y progresando hasta una implementación funcional basada en buenas prácticas de desarrollo backend.
+
+Este modelo refleja cómo Laravel, aunque requiere una inversión mayor en aprendizaje técnico (particularmente en PHP y configuración de entornos), permite una alta personalización, robustez y control del sistema, lo cual es ideal en proyectos donde el diseño de software demanda flexibilidad, control total del flujo de datos y manejo explícito de la lógica de negocio.
+
+![Esquema de tiempos](/Diagramas/TiemposLaravel.png)
 
 Al ser robusto y flexible, además de centrado en el Backend facilita el uso de la BD pero requiere del uso de otras tecnologías  para el Frontend como React u Node.js exigiendo de esta manera artefactos de diseño para poder concebir de mejor manera el proyecto.
 
