@@ -18,25 +18,23 @@ Para el inicio del desarrollo utilizamos un diagrama de casos de uso donde visua
 
 ## Comparación entre Flutterflow y Laravel
 
-### Ventajas de FlutterFlow
+### FlutterFlow
 
-**Separación clara entre UI y datos:** FlutterFlow se encarga de la interfaz, mientras Supabase gestiona el backend, base de datos, auth y storage.
+| Ventajas                                                                                                                                              | Desventajas                                                                                                                          |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Separación clara entre UI y datos:** FlutterFlow se  encarga de la interfaz, mientras Supabase gestiona  el backend, base de datos, auth y storage. | **Limitado control sobre el código generado:** No siempre es  limpio ni fácil de mantener fuera del entorno FlutterFlow.             |
+| **Arquitectura modular visual:** Puedes crear componentes  reutilizables, flujos y navegación limpia sin escribir código.                             | **Difícil manejar lógica de negocio compleja:** No es ideal para  aplicaciones con flujos muy personalizados o algoritmos avanzados. |
+| **Soporte para lógica condicional y flujos dinámicos:**  Puedes configurar reglas directamente en FlutterFlow sin programar.                          | **Dificultad para pruebas unitarias/automatizadas:** No hay soporte  directo para pruebas de software dentro de FlutterFlow.         |
+| **Integración directa con Supabase (PostgreSQL):** No requiere  configuración externa, lo que simplifica la arquitectura.                             |                                                                                                                                      |
 
-**Arquitectura modular visual:** Puedes crear componentes reutilizables, flujos y navegación limpia sin escribir código.
+### Laravel
 
-**Soporte para lógica condicional y flujos dinámicos:** Puedes configurar reglas directamente en FlutterFlow sin programar.
-
-**Integración directa con Supabase (PostgreSQL):** No requiere configuración externa, lo que simplifica la arquitectura.
-
----
-
-### Desventajas de Flutterflow
-
-**Limitado control sobre el código generado:** No siempre es limpio ni fácil de mantener fuera del entorno FlutterFlow.
-
-**Difícil manejar lógica de negocio compleja:** No es ideal para aplicaciones con flujos muy personalizados o algoritmos avanzados.
-
-**Dificultad para pruebas unitarias/automatizadas:** No hay soporte directo para pruebas de software dentro de FlutterFlow.
+| Ventajas | Desventajas |
+|----------|-------------|
+|          |             |
+|          |             |
+|          |             |
+|          |             |
 
 ## Conclusiones
 
